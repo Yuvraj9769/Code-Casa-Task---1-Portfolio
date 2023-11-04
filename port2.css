@@ -1,0 +1,545 @@
+body{
+    background-color: #003049;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 115vh;
+    width: 96vw;
+    align-items: center;
+    background-color: #212b4b;
+    padding: 10px;
+    border: 1px solid #00ff80;
+    border-radius: 10px;
+}
+.container-1{
+    height: 100%;
+    width: 30vw;
+    border: 1px solid #2ae3f0;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #212b4b;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.container-2{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 60vw;
+    border: 1px solid #2ae3f0;
+    border-radius: 10px;
+    padding: 10px  15px;
+    box-sizing: border-box;
+}
+.contact{
+    height: 404px;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    padding: 0px 10px;
+    flex-flow: column wrap;
+}
+.cnt{
+    color: #2ae3f0;
+    font-size: 26px;
+}
+.icon{
+    font-size: 26px;
+    margin: 5px;
+    transition: all 0.6s linear;
+}
+.icon:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    background-color: black;
+    box-shadow: 0px 0px 10px 5px rgb(44, 165, 221);
+}
+.image{
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+.img{
+    box-shadow: 0px 0px 10px 5px black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 265px;
+    background: linear-gradient(135deg,red,yellow,blue);
+    animation: bgmove 2s linear infinite normal;
+}
+@keyframes bgmove{
+    from{
+        background: linear-gradient(135deg,red,yellow,blue);
+    }
+    to{
+        background: linear-gradient(135deg,rgb(248, 99, 123),rgb(40, 206, 218),rgb(170, 243, 35));
+    }
+}
+.h4t{
+    font-size: 16px;
+}
+.dicon{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.idiv{
+    display: flex;
+    width: 15vw;
+    justify-content: space-between;
+}
+.i1{
+    color: #2ae3f0;
+    font-size: 16px;
+    margin: 0px 5px;
+}
+.i2,.i3{
+    color: #2ae3f0;
+    font-size: 16px;
+    margin: 0px 5px;
+}
+.i4{
+    color: #2ae3f0;
+    font-size: 16px;
+    margin: 0px 10px;
+}
+.spandiv{
+    display: flex;
+}
+.cont{
+    font-size: 30px;
+    color: #00ff80;
+}
+h2 span{
+    color: #18ede5;
+    display: inline-block;
+    margin: 0px -3px;
+}
+/* First Name  */
+
+.sp-1{
+    transform: rotateY(90deg);
+    opacity: 0;
+    margin-left: 5px;
+    animation: sp1 2s linear 1 normal forwards;
+}
+@keyframes sp1{
+    from{
+        transform: rotateY(90deg);
+        opacity: 0;
+    }
+    to{
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+}
+
+.sp-11{
+    transform: rotateY(90deg);
+    opacity: 0;
+    animation: sp11 2s linear 1s 1 normal forwards;
+}
+@keyframes sp11{
+    from{
+        transform: rotateY(90deg);
+        opacity: 0;
+    }
+    to{
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+}
+
+.sp-12{
+    transform: rotateY(90deg);
+    opacity: 0;
+    animation: sp12 2s linear 2s 1 normal forwards;
+}
+@keyframes sp12{
+    from{
+        transform: rotateY(90deg);
+        opacity: 0;
+    }
+    to{
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+}
+.sp-13{
+    transform: rotateY(90deg);
+    opacity: 0;
+    animation: sp13 2s linear 3s 1 normal forwards;
+}
+@keyframes sp13{
+    from{
+        transform: rotateY(90deg);
+        opacity: 0;
+    }
+    to{
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+}
+.sp-14{
+    transform: rotateY(90deg);
+    opacity: 0;
+    animation: sp14 2s linear 4s 1 normal forwards;
+}
+@keyframes sp14{
+    from{
+        transform: rotateY(90deg);
+        opacity: 0;
+    }
+    to{
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+}
+.sp-15{
+    transform: rotateY(90deg);
+    opacity: 0;
+    animation: sp15 2s linear 5s 1 normal forwards;
+}
+@keyframes sp15{
+    from{
+        transform: rotateY(90deg);
+        opacity: 0;
+    }
+    to{
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+}
+
+
+
+
+/* For middle name  */
+
+.sp-110{
+    transform: rotateY(90deg);
+    opacity: 0;
+    animation: sp110 2s linear  1 normal forwards;
+}
+@keyframes sp110{
+    from{
+        transform: rotateY(90deg);
+        opacity: 0;
+    }
+    to{
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+}
+.sp-111{
+    transform: rotateY(90deg);
+    opacity: 0;
+    animation: sp111 2s linear 1s 1 normal forwards;
+}
+@keyframes sp111{
+    from{
+        transform: rotateY(90deg);
+        opacity: 0;
+    }
+    to{
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+}
+.sp-121{
+    transform: rotateY(90deg);
+    opacity: 0;
+    animation: sp121 2s linear 2s 1 normal forwards;
+}
+@keyframes sp121{
+    from{
+        transform: rotateY(90deg);
+        opacity: 0;
+    }
+    to{
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+}
+.sp-131{
+    transform: rotateY(90deg);
+    opacity: 0;
+    animation: sp131 2s linear 3s 1 normal forwards;
+}
+@keyframes sp131{
+    from{
+        transform: rotateY(90deg);
+        opacity: 0;
+    }
+    to{
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+}
+.sp-141{
+    transform: rotateY(90deg);
+    opacity: 0;
+    animation: sp141 2s linear 4s 1 normal forwards;
+}
+@keyframes sp141{
+    from{
+        transform: rotateY(90deg);
+        opacity: 0;
+    }
+    to{
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+}
+.sp-151{
+    transform: rotateY(90deg);
+    opacity: 0;
+    animation: sp151 2s linear 5s 1 normal forwards;
+}
+@keyframes sp151{
+    from{
+        transform: rotateY(90deg);
+        opacity: 0;
+    }
+    to{
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+}
+
+
+/* For Last name  */
+
+.sp-1100{
+    transform: rotateY(90deg);
+    opacity: 0;
+    animation: sp1100 2s linear  1 normal forwards;
+}
+@keyframes sp1100{
+    from{
+        transform: rotateY(90deg);
+        opacity: 0;
+    }
+    to{
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+}
+.sp-1110{
+    transform: rotateY(90deg);
+    opacity: 0;
+    animation: sp1110 2s linear 1s 1 normal forwards;
+}
+@keyframes sp1110{
+    from{
+        transform: rotateY(90deg);
+        opacity: 0;
+    }
+    to{
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+}
+.sp-1210{
+    transform: rotateY(90deg);
+    opacity: 0;
+    animation: sp1210 2s linear 2s 1 normal forwards;
+}
+@keyframes sp1210{
+    from{
+        transform: rotateY(90deg);
+        opacity: 0;
+    }
+    to{
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+}
+.sp-1310{
+    transform: rotateY(90deg);
+    opacity: 0;
+    animation: sp1310 2s linear 3s 1 normal forwards;
+}
+@keyframes sp1310{
+    from{
+        transform: rotateY(90deg);
+        opacity: 0;
+    }
+    to{
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+}
+.sp-1410{
+    transform: rotateY(90deg);
+    opacity: 0;
+    animation: sp1410 2s linear 4s 1 normal forwards;
+}
+@keyframes sp1410{
+    from{
+        transform: rotateY(90deg);
+        opacity: 0;
+    }
+    to{
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+}
+.sp-1510{
+    transform: rotateY(90deg);
+    opacity: 0;
+    animation: sp1510 2s linear 8s 1 normal forwards;
+}
+@keyframes sp1510{
+    from{
+        transform: rotateY(90deg);
+        opacity: 0;
+    }
+    to{
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+}
+
+div p{
+    color: #00ff80;
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px 20px;
+}
+
+.skills{
+    display: flex;
+    flex-flow: column wrap;
+}
+.skills-1{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    justify-content: space-around;
+    align-items: center;
+    background-color: #212b4b;
+    border: 1px solid #00ff80;
+    border-radius: 10px;
+    height: 90vh;
+    width: 96vw;
+    margin: auto;
+}
+
+
+.box1{
+    background-color: #ffff;
+    height: 30vh;
+    width: 12vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2px 4px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 4px 9px 12px 7px rgb(0 0 0);
+}
+
+.box1:hover{
+    background-color: #000bff;
+    cursor: pointer;
+    transition: all 2s ease;
+    transform: scale(1.2);
+    border: 2px solid #ffff;
+}
+.targh1{
+    color: blue; 
+    font-weight: 600;     
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.box1:hover .targh1{
+    color: #ffff;
+}
+
+.my-details{
+    background-color: #212b4b;
+    color: #ffff;
+    padding: 10px 5px;
+    border: 1px solid #00ff80;
+    border-radius: 10px;
+    margin: 20px 10px;
+    font-size: 19px;
+    height: 115vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.my-details .experiences{
+    height: auto;
+    width: 40vw;
+    padding: 5px 10px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.my-details .experiences h3{
+    display: list-item;
+    list-style: disc;
+    font-size: 19px;
+    color: #2ae3f0;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.my-details .projects{
+    height: auto;
+    width: 42vw;
+    padding: 5px 10px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.my-details .projects h3{
+    display: list-item;
+    list-style: disc;
+    font-size: 19px;
+    color: #2ae3f0;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+#res{
+    font-size: 22px;
+    color: #ffe518;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    text-decoration: none;
+    background-color: #212b4b;
+    padding: 12px 10px;
+    border: 1px solid #00ff80;
+    border-radius: 10px;
+}
+
+#res:hover{
+    color: #dac845;
+}
+
+.resume{
+    padding: 10px 5px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+footer{
+    background-color: #212b4b;
+    border: 1px solid #00ff80;
+    border-radius: 10px;
+    margin: 15px 10px;
+}
+.footext{
+    font-size: 20px;
+    text-align: center;
+    color: #18ede5;
+    padding: 5px;
+}
